@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html>
+
+<head>
+		<title>MyKitchen</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/index.css" >
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Syncopate" />
+
+</head>
+
+<body>
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId      : '1265350636883154',
+	      xfbml      : true,
+	      version    : 'v2.8'
+	    });
+	    FB.AppEvents.logPageView();
+	  };
+
+	  (function(d, s, id){
+	    var js, fjs = d.getElementsByTagName(s)[0];
+	    if (d.getElementById(id)) {return;}
+	    js = d.createElement(s); js.id = id;
+	    js.src = "//connect.facebook.net/en_US/sdk.js";
+	    fjs.parentNode.insertBefore(js, fjs);
+	  }(document, 'script', 'facebook-jssdk'));
+
+	  function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+  console.log("checkLoginState called");
+}
+
+function statusChangeCallback(response) {
+  console.log('Facebook login status changed.');
+  console.log(response);
+  // The response object is returned with a status field that lets the
+  // app know the current login status of the person.
+  // Full docs on the response object can be found in the documentation
+  // for FB.getLoginStatus().
+  if (response.status === 'connected') {
+    console.log("user logged into facebook and app");
+    // Logged into your app and Facebook.
+    window.location.href="/home";
+  } else {
+    console.log("user is not logged into facebook or app");
+    alert("You are not logged into Facebook or the App");
+    window.location.href="/";
+  }
+}
+	</script>
+<!--
+	<script src="/js/facebook.js"></script>
+-->
+
+	<div class="container">
+
+		<div class="bold_title">Our Kitchen</div>
+
+		<div class="login-page">
+			
+			<div class="form">
+				<form class="login-form">
+					<p class="facebookLogin">
+						Welcome to Our Kitchen!
+						<br/>
+						This App will help you manage your pantry especially when you are sharing it with roomates and friends.
+						<br/>
+						<br/>
+						Easily tag your food shareable!
+						<br/>
+						Comment on friends' food!
+						<br/>
+						Get notification on expiration!
+						<br/>
+						<br/>
+						<br/>
+						Let's start sharing!
+						<br/>
+						<br/>
+					<fb:login-button id='login' size="large" scope="public_profile,email" onlogin="checkLoginState();">
+					Login with Facebook
+					</fb:login-button>
+					
+					</p>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="../js/index.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="../js/jquery-1.11.0.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93243615-1', 'auto');
+  ga('send', 'pageview');
+  ga('','click');
+
+</script>
+	
+</body>
+
+</html>

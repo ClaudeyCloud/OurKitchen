@@ -1,0 +1,206 @@
+{
+	"item": [
+		{
+			"item_ID": 0,
+			"owner": "Dominic",
+			"item_category": "fruit",
+			"item_name": "Apple",
+			"item_imageURL": "/image/item_icon/apple.png",
+			"expiration_date": "2017-05-01",
+			"price": "6.37",
+			"shareable": true,
+			"used_up": 0,
+			"removed": 0,
+			"description": "Dom bought these apples"
+		},
+
+		{
+			"item_ID": 1,
+			"owner": "Dominic",
+			"item_category": "drink",
+			"item_name": "Diet Coke",
+			"item_imageURL": "/image/item_icon/drinks.png",
+			"expiration_date": "2017-05-01",
+			"price": "6.37",
+			"shareable": true,
+			"used_up": 0,
+			"removed": 0,
+			"description": "Diet coke makes me less guilty."
+
+
+		},
+
+		{
+			"item_ID": 2,
+			"owner": "Dominic",
+			"item_category": "vegetable",
+			"item_name": "lettuce",
+			"item_imageURL": "/image/item_icon/lettuce.png",
+			"expiration_date": "2017-04-01",
+			"price": "6.37",
+			"shareable": false,
+			"used_up": 0,
+			"removed": 0,
+			"description": "Veggie veggie!"
+		},
+
+		{
+			"item_ID": 3,
+			"owner": "Sarah",
+			"item_category": "fruit",
+			"item_name": "Apple",
+			"item_imageURL": "/image/item_icon/apple.png",
+			"expiration_date": "2017-04-01",
+			"price": "6.37",
+			"shareable": true,
+			"used_up": 0,
+			"removed": 0,
+			"description": "More apples"
+
+		},
+
+		{
+			"item_ID": 4,
+			"owner": "Dominic",
+			"item_category": "grain",
+			"item_name": "flour",
+			"item_imageURL": "/image/item_icon/flour.png",
+			"expiration_date": "2017-09-01",
+			"price": "6.37",
+			"shareable": false,
+			"used_up": 0,
+			"removed": 0,
+			"description": "For Sarah's birthday cake"
+
+		},
+
+		{
+			"item_ID": 5,
+			"owner": "Shuyuan",
+			"item_category": "dairy",
+			"item_name": "non-fat milk",
+			"item_imageURL": "/image/item_icon/milk.png",
+			"expiration_date": "2017-05-01",
+			"price": "6.37",
+			"shareable": true,
+			"used_up": 0,
+			"removed": 0,
+			"description": "Healthy healthy!"
+
+		},
+
+		{
+			"item_ID": 6,
+			"owner": "Sarah",
+			"item_category": "vegetable",
+			"item_name": "onion",
+			"item_imageURL": "/image/item_icon/onion.png",
+			"expiration_date": "2017-05-01",
+			"price": "6.37",
+			"shareable": true,
+			"used_up": 0,
+			"removed": 0,
+			"description": "Onions make me cry."
+
+		},
+
+		{
+			"item_ID": 7,
+			"owner": "Sarah",
+			"item_category": "fruit",
+			"item_name": "orange",
+			"item_imageURL": "/image/item_icon/orange.png",
+			"expiration_date": "2017-03-14",
+			"price": "6.37",
+			"shareable": true,
+			"used_up": 0,
+			"removed": 0,
+			"description": "Peel, don't cut."
+
+		}
+	], 
+
+	"icon_imageURLs": [
+		{
+  			"name": "apple",
+  			"url": "/image/item_icon/apple.png"
+  		},
+  
+  		{
+ 			"name": "cabbage",
+ 			"url": "/image/item_icon/cabbage.png"
+ 		},
+ 
+ 		{
+ 			"name": "cake",
+ 			"url": "/image/item_icon/cake.png"
+ 		},
+ 		
+ 		{
+ 			"name": "coffee",
+ 			"url": "/image/item_icon/coffee.png"
+ 		},
+ 
+ 		{
+ 			"name": "dairy",
+ 			"url": "/image/item_icon/cow.png"
+ 		},
+ 		
+ 		{
+ 			"name": "soda",
+ 			"url": "/image/item_icon/drinks.png"
+ 		},
+ 		
+ 		{
+ 			"name": "flour",
+ 			"url": "/image/item_icon/flour.png"
+ 		},
+ 		
+ 		{
+ 			"name": "fruits or vegetables",
+ 			"url": "/image/item_icon/fruits_vegetables.png"
+ 		},
+ 		
+ 		{
+ 			"name": "lemon",
+ 			"url": "/image/item_icon/lemon.png"
+ 		},
+ 		
+ 		{
+ 			"name": "lettuce",
+ 			"url": "/image/item_icon/lettuce.png"
+ 		},
+ 		
+ 		{
+ 			"name": "milk",
+ 			"url": "/image/item_icon/milk.png"
+ 		},
+ 		
+ 		{
+ 			"name": "orange",
+ 			"url": "/image/item_icon/orange.png"
+ 		},
+ 
+ 
+ 		{
+  			"name": "onion",
+  			"url": "/image/item_icon/onion.png"
+ 		},
+ 
+ 		{
+ 			"name": "toast",
+ 			"url": "/image/item_icon/toast.png"
+ 		},
+ 
+ 		{
+ 			"name": "tomato",
+ 			"url": "/image/item_icon/tomato.png"
+  		}
+	],
+
+	"list_item": [
+		{
+			"name": "some item"
+		}
+	]
+}
