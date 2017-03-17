@@ -111,9 +111,24 @@ $('#myModal').on('show.bs.modal', function (event) {
         var owner = element.find('.owner').text();
         var description = element.find('.item_description').text(); // Extract the value of the .text div inside that li
         var imgSrc = element.find('.food_icon').attr("src");//extract the img src
+        var expired = element.find('.expired').text();
+        var expiring = element.find('.expiring').text();
+
 
         var modal = $(this);
         $("#modal_head").text(name);
         $("#popup").html(owner+': ' + description);
         $("#modal_img").attr("src", imgSrc);
+        if(expired == "1") {
+          $("#submitBtn_in_modal").show();
+          $("#submitBtn_in_modal").text("This item has expired!");
+          console.log("let expired button showed for "+name);
+        } else if (expiring == "1") {
+          $("#submitBtn_in_modal").show();
+          $("#submitBtn_in_modal").text("Expiring in one week!");
+          console.log("let expiring button showed for "+name);
+        } else {
+          $("#submitBtn_in_modal").hide();
+        }
+
     });

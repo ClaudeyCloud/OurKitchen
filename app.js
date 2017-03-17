@@ -12,8 +12,8 @@ var index = require('./routes/index');
 var home = require('./routes/home');
 var add = require('./routes/add');
 var account = require('./routes/account');
-var settings = require('./routes/settings');
-var grocerylist = require('./routes/grocerylist');
+//var settings = require('./routes/settings');
+//var grocerylist = require('./routes/grocerylist');
 // Example route
 // var user = require('./routes/user');
 
@@ -49,8 +49,8 @@ app.get('/addItem', add.addItem);
 app.get('/add', add.view);
 
 app.get('/account', account.view);
-app.get('/settings', settings.view);
-app.get('/grocerylist', grocerylist.view);
+//app.get('/settings', settings.view);
+//app.get('/grocerylist', grocerylist.view);
 // Example route
 // app.get('/users', user.list);
 

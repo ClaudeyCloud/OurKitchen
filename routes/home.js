@@ -6,6 +6,21 @@ var data = require('../data.json');
 
 exports.view = function(req, res){
 	data["nav"] = false;
+
+	//check for expiration
+	var today = new Date();
+	today = today.toISOString();
+	var oneWeekAhead = new Date();
+	oneWeekAhead.setDate(oneWeekAhead.getDate() + 7);
+	oneWeekAhead = oneWeekAhead.toISOString();
+	data.item.forEach(function(e) {
+		if(today > e.expiration_date) {
+			e.expired = 1;
+		} else if (oneWeekAhead > e.expiration_date) {
+			e.expiring = 1;
+		};
+	});
+	
 	res.render('home', data);
 };
 

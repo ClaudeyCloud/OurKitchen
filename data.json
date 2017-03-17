@@ -6,9 +6,10 @@
 			"item_category": "fruit",
 			"item_name": "Apple",
 			"item_imageURL": "/image/item_icon/apple.png",
-			"expiration_date": "2017-05-01",
+			"expiration_date": "2017-03-01",
 			"price": "6.37",
 			"shareable": true,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "Dom bought these apples"
@@ -20,9 +21,10 @@
 			"item_category": "drink",
 			"item_name": "Diet Coke",
 			"item_imageURL": "/image/item_icon/drinks.png",
-			"expiration_date": "2017-05-01",
+			"expiration_date": "2017-03-19",
 			"price": "6.37",
 			"shareable": true,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "Diet coke makes me less guilty."
@@ -39,6 +41,7 @@
 			"expiration_date": "2017-04-01",
 			"price": "6.37",
 			"shareable": false,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "Veggie veggie!"
@@ -53,6 +56,7 @@
 			"expiration_date": "2017-04-01",
 			"price": "6.37",
 			"shareable": true,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "More apples"
@@ -68,6 +72,7 @@
 			"expiration_date": "2017-09-01",
 			"price": "6.37",
 			"shareable": false,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "For Sarah's birthday cake"
@@ -83,6 +88,7 @@
 			"expiration_date": "2017-05-01",
 			"price": "6.37",
 			"shareable": true,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "Healthy healthy!"
@@ -98,6 +104,7 @@
 			"expiration_date": "2017-05-01",
 			"price": "6.37",
 			"shareable": true,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "Onions make me cry."
@@ -113,6 +120,7 @@
 			"expiration_date": "2017-03-14",
 			"price": "6.37",
 			"shareable": true,
+			"expired": 0,
 			"used_up": 0,
 			"removed": 0,
 			"description": "Peel, don't cut."
@@ -196,11 +204,6 @@
  			"name": "tomato",
  			"url": "/image/item_icon/tomato.png"
   		}
-	],
-
-	"list_item": [
-		{
-			"name": "some item"
-		}
 	]
+
 }
